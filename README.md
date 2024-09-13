@@ -31,14 +31,15 @@ Ensure you have a modern web browser (e.g., Google Chrome, Firefox, Safari) to v
 USAGE:
 Add a Task:
 Type your task in the input field and click the "Add Task" button.
+
 Edit a Task:
-
 Click the "Edit" button next to the task you want to edit. A prompt will appear allowing you to modify the task text.
+
 Complete a Task:
-
 Click the "Complete" button to toggle the completion status of the task. Completed tasks will be struck through.
-Delete a Task:
 
+Delete a Task:
 Click the "Delete" button to remove the task from the list.
 
 
+@ABHIJIT RANJAN [SRMIST]
