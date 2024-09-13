@@ -1,0 +1,117 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #a8c0ff, #3f2b96); /* Gradient background */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.container {
+    width: 300px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin: 0 0 20px;
+    font-size: 28px;
+    font-family: 'Verdana', sans-serif; /* Different font style */
+    color: #333; /* Dark text color for better readability */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #555; /* Darker text color */
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button.add {
+    background-color: #5cb85c;
+}
+
+button.add:hover {
+    background-color: #4cae4c;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    background-color: #f9f9f9;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Courier New', Courier, monospace; /* Different font style */
+    color: #333; /* Darker text color */
+}
+
+li.completed {
+    text-decoration: line-through;
+    color: #888;
+}
+
+.button-group {
+    display: flex;
+}
+
+button.edit {
+    background-color: #5bc0de;
+    margin-right: 5px;
+}
+
+button.delete {
+    background-color: #d9534f;
+    margin-right: 5px;
+}
+
+button.complete {
+    background-color: #f0ad4e;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 14px;
+    color: #fff;
+}
+
+footer p {
+    margin: 0;
+}
