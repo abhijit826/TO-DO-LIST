@@ -25,7 +25,7 @@ Ensure you have a modern web browser (e.g., Google Chrome, Firefox, Safari) to v
 
 1. **Clone the repository:**
 
-   git clone :https://github.com/abhijit826/TO-DO-LIST
+   git clone : https://github.com/abhijit826/TO-DO-LIST
  
    
 USAGE:
