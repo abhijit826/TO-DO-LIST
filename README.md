@@ -21,25 +21,40 @@ To get a local copy of this project up and running, follow these simple steps:
 
 Ensure you have a modern web browser (e.g., Google Chrome, Firefox, Safari) to view and interact with the application.
 
-### Installation
+### INSTALLATION
 
-1. **Clone the repository:**
+Clone the repository:
 
-   git clone : https://github.com/abhijit826/TO-DO-LIST
- 
-   
-USAGE:
-Add a Task:
-Type your task in the input field and click the "Add Task" button.
+```bash
+  git clone: https://github.com/abhijit826/TO-DO-LIST
 
-Edit a Task:
+```
+Navigate to the project directory:
+```bash
+ cd to-do-list-app
+```
+Install the required packages:
+```bash
+ npm install
+```
+Start the development server
+```bash
+ npm start
+```
+
+#### Running the App:
+
+Open your browser and navigate to http://localhost:3000 to see the To-Do List application in action.
+
+###    USAGE: 
+#### Add a Task:
+ Type your task in the input field and click the "Add Task" button.
+
+#### Edit a Task: 
 Click the "Edit" button next to the task you want to edit. A prompt will appear allowing you to modify the task text.
 
-Complete a Task:
-Click the "Complete" button to toggle the completion status of the task. Completed tasks will be struck through.
+#### Complete a Task:
+ Click the "Complete" button to toggle the completion status of the task. Completed tasks will be struck through.
 
-Delete a Task:
+#### Delete a Task: 
 Click the "Delete" button to remove the task from the list.
-
-
-@ABHIJIT RANJAN [SRMIST]
